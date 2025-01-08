@@ -1,0 +1,38 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .page-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .page-container a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+  }
+  
+  .page-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .fade-enter {
+    opacity: 0;
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+  .fade-exit {
+    opacity: 1;
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  
